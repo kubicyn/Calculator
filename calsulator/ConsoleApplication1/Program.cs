@@ -13,7 +13,11 @@ namespace ConsoleApplication1
             while(true)
             {
                 Console.WriteLine("1, DOdaj");
+
+                Console.WriteLine("3, Exit");
+                
                 Console.WriteLine("3, Odejmij");
+
                 Console.WriteLine("4, Mnozenie");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 3)
