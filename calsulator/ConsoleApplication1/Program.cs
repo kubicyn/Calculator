@@ -12,15 +12,15 @@ namespace ConsoleApplication1
         {
             while(true)
             {
-                Console.WriteLine("1, DOdaj");
+                Console.WriteLine("1 Dodaj");
 
-                Console.WriteLine("3, Exit");
+                Console.WriteLine("3 Exit");
                 
-                Console.WriteLine("3, Odejmij");
+                Console.WriteLine("3 Odejmij");
 
-                Console.WriteLine("4, Mnozenie");
-                Console.WriteLine("5, Dzielenie:");
-                Console.WriteLine("MUSH NA MASTERRRRRRRRR");
+                Console.WriteLine("4 Mnozenie");
+                Console.WriteLine("5 Dzielenie:");
+                Console.WriteLine("PUSH NA MASTERRRRRRRRR");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 3)
                     break;
