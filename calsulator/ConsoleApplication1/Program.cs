@@ -19,7 +19,7 @@ namespace ConsoleApplication1
                 Console.WriteLine("3, Odejmij");
 
                 Console.WriteLine("4, Mnozenie");
-                Console.WriteLine("5, Dzielenie");
+                Console.WriteLine("5, Dzielenie:");
                 int menuOption = Convert.ToInt32(Console.ReadLine());
                 if (menuOption == 3)
                     break;
